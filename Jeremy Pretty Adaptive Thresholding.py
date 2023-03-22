@@ -26,6 +26,7 @@ if __name__ == "__main__":
     outdoor_image_path = os.path.join(os.path.dirname(__file__), 'outdoor.jpg')
     close_up_image_path = os.path.join(os.path.dirname(__file__), 'closeup.jpg')
 
+    # Create and Display the Adaptive Thresholding
     adaptive_thresholding(indoor_image_path)
     adaptive_thresholding(outdoor_image_path)
     adaptive_thresholding(close_up_image_path)
